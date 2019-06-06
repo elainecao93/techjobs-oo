@@ -23,7 +23,7 @@ public class JobForm {
     private int employerId;
     private int locationId;
     private int competencyId;
-    private int typeId;
+    private int positionTypeId;
 
 /*
         with correct validation attributes and display names.
@@ -82,11 +82,11 @@ public class JobForm {
     }
 
     public int getPositionTypeId() {
-        return typeId;
+        return positionTypeId;
     }
 
     public void setPositionTypeId(int typeId) {
-        this.typeId = typeId;
+        this.positionTypeId = typeId;
     }
 
     public ArrayList<Employer> getEmployers() {
